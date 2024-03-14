@@ -41,9 +41,9 @@ function UserInfoForm() {
       }
     );
     const result = await response.json();
-    if(!result.ok) {
-      throw Error('Error sending data')
-    }
+    // if(!result.ok) {
+    //   throw Error('Error sending data')
+    // }
     // console.log("Name:", name);
     // console.log("Job:", job);
     // console.log("Age:", age);
